@@ -3,6 +3,7 @@ $(function() {
     var txt = $("#dm-txt").val();
     var div = " <div > " + txt + " </div>";
     $(".dm_show").append(div);
+    $("#dm-txt").val("");
     init_screen();
   });
   $("#btn-erase").click(function(){
